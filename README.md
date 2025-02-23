@@ -38,7 +38,7 @@ I'm a **Computer Engineering Student** passionate about **web development**, **A
 ## 💬 Let's Connect!
 📩 Feel free to reach out for collaboration, projects, or just to chat about tech!
 - 🔗 **LinkedIn:** [linkedin.com/in/kalpeshhh](https://linkedin.com/in/kalpeshhh)
-- 🐦 **Twitter/X:** [@KalpeshPatil311]
+- 🐦 **Twitter/X:** [KalpeshPatil311]
 - 📧 **Email:** [kalpeshspatil311@gmail.com](mailto:kalpeshspatil311@gmail.com)
 - 🏠 **GitHub:** [github.com/Kalpesh-311](https://github.com/Kalpesh-311)
 
