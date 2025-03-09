@@ -1,19 +1,21 @@
 # Hi there! 👋 I'm Kalpesh Patil
 
 ## 🚀 About Me
-I'm a **Computer Engineering Student** passionate about **web development**, **AI**, and **problem-solving**. Currently diving into **backend development** and exploring technologies like **Next.js, React Query, and Zustand** to enhance my skills.
+I'm a **Computer Engineering Student** passionate about **web development**, **AI**, and **problem-solving**. Currently diving into **Database Managment** and exploring technologies like **SQL, Amazon DynamoDB, and Zustand** to enhance my skills.
 
 ## 🔥 What I'm Working On
+- 🔥 **Gsoc 2025**
 - 🖥️ **Collaborative Whiteboard Project**
 - 💡 **Innovent Idea Competition 2025** (ScamShield AI & CleanDriveX)
-- 🌐 Learning **Backend Development** (Node.js, Express, MongoDB, SQL)
+- 🌐 Learning **Database** (Apache Cassandra, MySQL, MongoDB, SQL)
 - 📂 Contributing to **GitHub Open Source Projects**
 
 ## 🎯 Skills
-- **Languages:** C/C++, Java, Python, JavaScript
-- **Frontend:** React.js, Next.js (Learning)
-- **Backend:** Node.js (Learning)
-- **Technologies & Tools:** AWS, Git, Visual Studio Code, Visual Studio
+- **Languages:** C/C++, Java, Python, JavaScript, Type 
+- **Frontend:** React.js, Next.js
+- **Backend:** Node.js, Express.js
+- **Databases:** SQL, MongoDB
+- **Technologies & Tools:** AWS, Git, Visual Studio Code, Visual Studio, Figma
 
 ## 🏆 Achievements
 - ✅ **Completed NISM VA Certification** (Securities Markets)
