@@ -11,7 +11,7 @@ I'm a **Computer Engineering Student** passionate about **web development**, **A
 - 📂 Contributing to **GitHub Open Source Projects**
 
 ## 🎯 Skills
-- **Languages:** C/C++, Java, Python, JavaScript, Type 
+- **Languages:** C/C++, Java, Python, JavaScript 
 - **Frontend:** React.js, Next.js
 - **Backend:** Node.js, Express.js
 - **Databases:** SQL, MongoDB
