@@ -7,7 +7,7 @@ I'm a **Computer Engineering Student** passionate about **web development**, **A
 - 🔥 **Gsoc 2025**
 - 🖥️ **Collaborative Whiteboard Project**
 - 💡 **Innovent Idea Competition 2025** (ScamShield AI & CleanDriveX)
-- 🌐 Learning **Database** (Apache Cassandra, MySQL, MongoDB, SQL)
+- 🌐 ACM WebMaster of Student Chapter Dhule
 - 📂 Contributing to **GitHub Open Source Projects**
 
 ## 🎯 Skills
@@ -15,12 +15,12 @@ I'm a **Computer Engineering Student** passionate about **web development**, **A
 - **Frontend:** React.js, Next.js
 - **Backend:** Node.js, Express.js
 - **Databases:** SQL, MongoDB
-- **Technologies & Tools:** AWS, Git, Visual Studio Code, Visual Studio, Figma
+- **Technologies & Tools:** AWS, cPanel, Git, Visual Studio Code, Visual Studio, Figma
 
 ## 🏆 Achievements
 - ✅ **Completed NISM VA Certification** (Securities Markets)
 - 🏅 **Mumbai Hacks Participant** (Guinness World Record Hackathon)
-- 🎓 **ISTE Student Member** (Membership No: 000450)
+- 🎓 **ISTE and ACM Student Member** (Membership No: 000450)
 - 🛡️ **Avishkar Hackathon – Women’s Safety App**
 - 🎭 **Best Performance Award** for Drama at Splash (College Cultural Event)
 - 📜 **First Year Student Association (FESA) Representative** (SVKM’s Institute of Technology, Dhule)
