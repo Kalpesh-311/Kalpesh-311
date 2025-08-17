@@ -4,10 +4,10 @@
 I'm a **Computer Engineering Student** passionate about **web development**, **AI**, and **problem-solving**. Currently diving into **Database Managment** and exploring technologies like **SQL, Amazon DynamoDB, and Zustand** to enhance my skills.
 
 ## 🔥 What I'm Working On
+- 🌐 (Present) Website Manager at ACM Student Chapter- SVKM-IOT
 - 🔥 **Gsoc 2025**
 - 🖥️ **Collaborative Whiteboard Project**
 - 💡 **Innovent Idea Competition 2025** (ScamShield AI & CleanDriveX)
-- 🌐 ACM WebMaster of Student Chapter Dhule
 - 📂 Contributing to **GitHub Open Source Projects**
 
 ## 🎯 Skills
