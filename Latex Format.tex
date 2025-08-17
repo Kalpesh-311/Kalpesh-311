@@ -1,0 +1,158 @@
+
+\documentclass[a4paper,8pt]{article}
+
+\usepackage{parskip} 
+\usepackage{hologo}
+\usepackage{fontspec}
+
+%other packages for formatting
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9, top=.4in, bottom=.4in]{geometry}
+
+%tabularx environment
+\usepackage{tabularx}
+
+%for lists within experience section
+\usepackage{enumitem}
+
+% centered version of 'X' col. type
+\newcolumntype{C}{>{\centering\arraybackslash}X} 
+
+%to prevent spillover of tabular into next pages
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.42\textwidth}
+
+%custom \section
+\usepackage{titlesec}				
+\usepackage{multicol}
+\usepackage{multirow}
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{1pt}{2pt}{2pt}
+
+%for publications
+\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
+
+%Setup hyperref package, and colours for links
+\usepackage[unicode, draft=false]{hyperref}
+\color[HTML]{110223}%{1C033C}
+\addbibresource{citations.bib}
+\setlength\bibitemsep{1em}
+
+%for social icons
+\usepackage{fontawesome5}
+% \usepackage{times}
+
+% For underline
+\usepackage[normalem]{ulem}
+
+\setmainfont{Arial}  % Set it to whatever you like
+
+\begin{document}
+
+% non-numbered pages
+\pagestyle{empty} 
+
+%heading----------------------------------------------------------------------------
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\color[HTML]{1C033C} \Huge{Kalpesh Sunil Patil} \\[6pt]
+\\
+\textcolor[HTML]{371e77}{{{{\faEnvelope}  Kalpeshspatil311@gmail.com}} $|$}
+\textcolor[HTML]{371e77}{{{\faMobile} +91-8806598000}}
+
+\textcolor[HTML]{371e77}{\underline{{\raisebox{-0.05\height}{\faGithub} github.com/Kalpesh-311}} $|$}
+\textcolor[HTML]{371e77}{\underline{{\raisebox{-0.05\height}{\faLinkedin} linkedin.com/in/kalpeshhh}}}
+\end{tabularx}
+
+\section{Skills}
+\color[HTML]{1C033C}\textbf{Languages:} C/C++, Java, Python, JavaScript, SQL.\\[3pt]
+\color[HTML]{1C033C}\textbf{Technologies \& Tools:} MERN Stack, Full Stack, MongoDB, cPanel, Git, Figma.\\[3pt]
+
+%Experience----------------------------------------------------------------------------
+\section{Work Experience}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\color[HTML]{1C033C} \textbf{{ACM Student Chapter, SVKM-IOT}} \hfill \color[HTML]{371e77} July 2025 - Present \\[4pt]
+\color[HTML]{371e77}\textbf{\textit{WebMaster}}\ \hfill \color[HTML]{4B28A4} \\[5pt]
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
+        \item Managing and maintaining the official student chapter website through cPanel, ensuring smooth functionality and with regular updates.
+        \item Ensuring website security, backups, and accessibility for all chapter members.
+        \item Visual Studio Code, cPanel, Percipio, HTML, CSS, JavaScript, Git.
+    \end{itemize}
+\end{minipage}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{{OctaNet Services Pvt Ltd}} \hfill \color[HTML]{371e77}  July 2024- Sept 2024\\[4pt]
+\color[HTML]{371e77}\textbf{\textit{WebDevelopment Intern}}\ \hfill \color[HTML]{4B28A4} \\[5pt]
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
+        \item Developed and maintained responsive web applications with a focus on user-friendly interfaces.
+        \item Collaborated with cross-functional teams to deliver projects on time and within scope.
+        \item  Visual Studio Code, HTML, CSS, JavaScript, Mongosh-MongoDB.
+    \end{itemize}
+\end{minipage}
+\end{tabularx}
+\vspace{4pt}
+
+
+
+% Education-------------------------------------------------------------------------------
+\section{Education}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\color[HTML]{1C033C} \textbf{SVKM’s Institute of Technology, Maharashtra} & \hfill \color[HTML]{371e77} Sept 2023- Dec 2027 \\
+\color[HTML]{371e77} B.E. in Computer Science and Engineering & \hfill \color[HTML]{4B28A4} \textit{\textbf{CGPA: 7.01/10}} \\
+\multicolumn{2}{@{}X@{}}{Relevant Coursework: Object Oriented Programming, Databases, Discrete Maths, Data Structures and Algorithms, Operating Systems, Advance Data Structures and Algorithms, Image Processing.}
+\end{tabularx}\\[3pt]
+
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\color[HTML]{1C033C} \textbf{North Point School, Maharashtra} & \hfill \color[HTML]{371e77} Sept 2023- Dec 2027 \\
+\color[HTML]{371e77} Middle School & \hfill \color[HTML]{4B28A4} \textit{\textbf{GRADE: A+}} \\
+\multicolumn{2}{@{}X@{}}{ Activities and Societies: Member of Orion Group, Scholar of IPO (International Physics Olympiad) and IMO (International
+ Mathematical Olympiad) }
+\end{tabularx}\\[3pt]
+
+
+
+
+
+% Projects------------------------------------------------------------------------------
+\section{Project Work}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
+        \item \textbf{Safe Sprout (2024):} Developed a mobile application focused on women’s safety, featuring real-time location tracking, SOS alerts, and communication with trusted contacts and emergency services. Led a team of 4 to enhance user confidence and emergency response, contributing to a safer environment for women.
+        \item \textbf{Digital Image Processing System(2024):} Delivered an in-depth seminar on the fundamentals and applications of digital image processing. Covered core topics such as image enhancement, segmentation, feature extraction, and object detection, with a focus on their use in autonomous vehicles.
+        \item \textbf{Survey Paper on Digital Image Processing in Autonomous Vehicles(Ongoing):} Currently authoring a survey paper on digital image processing in autonomous vehicles, focusing on object detection, lane tracking, semantic segmentation, and challenges like real-time processing and sensor fusion.
+    \end{itemize}
+    \end{minipage}
+\end{tabularx}\\[3pt]
+
+% Leadership and Volunteering-------------------------------------------------------------
+\section{Awards and Certificates}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
+        \item \textbf{Avishkar 2024:} Helping stud for the project ”Safe Sprout,” focused on enhancing women’s safety measures.
+        
+        \item \textbf{NISM VA Certification:} For comprehensive knowledge in financial markets and securities, with a focus on investment advisory practices.
+
+        \item \textbf{Best Performance Award:} For Drama at Splash, a college cultural event, for exceptional acting and impactful story telling, contributing to the success of the team performance.
+
+        \item \textbf{Elected as First Year Student Association (FESA):} SVKM’s Institute of Technology, Dhule Organized and managed sports events, promoting teamwork and active participation.
+
+        \item \textbf{Contributor to Guinness World Record: Mumbai Hacks (Largest Tech Hackathon):} Contributor in the record setting largest tech hackathon, recognized by the Guinness World Records.
+
+        \item \textbf{Student Member, ACM India and Indian Society for Technical Education(ISTE):} Active member of ACM Student Chapter (Membership No. 4417745) and ISTE(Membership No. 000450, Institute Code MH294),
+    \end{itemize}
+\end{minipage}
+\end{tabularx}
+\end{document}
